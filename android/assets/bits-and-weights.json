@@ -1,0 +1,87 @@
+{
+	Chicken : { 
+		name : 'Chicken',
+		image : 'chicken.jpg',
+		carcas_weight : 1500,
+		amounts : {
+			quarters : {
+				name : 'Quarters',
+				image : 'chicken-quarter.png',
+				weight : 375
+			},
+			big_bits : {
+				name : 'Big bits',
+				image : 'steak.png',
+				weight : 175
+			},
+			small_bits : {
+				name : 'Small bits',
+				image : 'meatball.png',
+				weight: 70
+			}
+		}
+	},	
+	Cow : { 
+		name : 'Cow',
+		image : 'cow.gif',
+		carcas_weight : 220 * 1000 * 0.75,
+		amounts : {
+			big_bits : {
+				name : 'Big bits',
+				image : 'steak.png',
+				weight : 175
+			},
+			small_bits : {
+				name : 'Small bits',
+				image : 'meatball.png',
+				weight: 70
+			}
+		}
+	},
+	Fish : { 
+		name : 'Fish',
+		image : 'fish.png',
+		carcas_weight : 800,
+		amounts : {
+			pieces : {
+				name : 'Pieces',
+				image : 'fish-fillet.jpg',
+				weight : 100
+			}
+		}
+	},
+	Pig : { 
+		name : 'Pig',
+		image : 'pig.jpg',
+		carcas_weight : 55 * 1000 * 0.75,
+		amounts : {
+			big_bits : {
+				name : 'Big bits',
+				image : 'steak.png',
+				weight : 175
+			},
+			small_bits : {
+				name : 'Small bits',
+				image : 'meatball.png',
+				weight: 70
+			}
+		}
+	},
+	Sheep : { 
+		name : 'Sheep',
+		image : 'sheep.jpg',
+		carcas_weight : 22 * 1000 * 0.75,
+		amounts : {
+			big_bits : {
+				name : 'Big bits',
+				image : 'steak.png',
+				weight : 175
+			},
+			small_bits : {
+				name : 'Small bits',
+				image : 'meatball.png',
+				weight: 70
+			}
+		}
+	}
+}
